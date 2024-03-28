@@ -1,0 +1,42 @@
+.contact{
+    height: 80vh;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url("contact_three.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: grayscale(1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head_con{
+    height: 60vh;
+    width: 35%;
+    /* background-color: rgb(89, 248, 15); */
+    text-align: center;
+}
+.form_field{
+    height: 30px;
+    width: 80%;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px;
+}
+.concern_field{
+    height: 30vh;
+    width: 80%;
+    margin: 5px;
+    border-radius: 30px;
+    padding: 15px;
+}
+.con_btn{
+    height: 30px;
+    width: 80%;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}

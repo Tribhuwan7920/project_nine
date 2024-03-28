@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main_section_header{
+    height: 10vh;
+    background-color: rgb(223, 221, 221);
+    box-shadow: 3px 3px 5px  gray;
+    width: 100vw;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.main_section_content{
+    margin-left: 80px;
+    color: rgb(8, 8, 250);
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+.main_sections_links a{
+    color: black;
+    text-decoration: none;
+    margin: 10px 30px;
+    font-size: large;
+}
+
+.main_sections_links a:hover{
+    color: rgb(172, 170, 170);
+}

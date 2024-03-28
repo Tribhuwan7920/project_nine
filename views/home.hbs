@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+
+    {{!-- inserting home page css --}}
+    <link rel="stylesheet" href="/home.css">
+
+</head>
+
+<body>
+    <div class="main_header">
+        {{>header}}
+    </div>
+
+    <div class="home_main_section">
+        <div class="home_section_text">
+            <h1 class="sh_first_heading">i am tribhuwan sharma</h1>
+            <h1 class="sh_second_heading">and full stack developer</h1>
+            <p class="sh_para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi facilis asperiores dolorum
+                cumque quasi, cum quod dolore dolor veritatis ipsam repellat accusamus, architecto officiis quibusdam
+                rerum. Adipisci quasi ullam distinctio.</p>
+            <button class="sh_btn">read more</button>
+        </div>
+        <div class="home_section_images">
+            <img src="/coding_seven.jfif" alt="no images" class="home_images">
+        </div>
+    </div>
+
+
+    {{!-- this is our second section of our website --}}
+    <section class="second_section">
+        <div class="ss_div">
+            <img src="/nature_eight.jfif" alt="no images " class="box_images bxi_one">
+        </div>
+        <div class="ss_div">
+            <img src="/black.jfif" alt="no images" class="box_images bxi_second">
+        </div>
+        <div class="ss_div">
+            <img src="/nature_five.jfif" alt="no images" class="box_images bxi_third">
+        </div>
+
+
+        <div class="ss_div">
+            <div class="ss_main_div">
+                <h1 class="ss_div_heading">about us </h1>
+                <p class="ss_div_para">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. A assumenda officiis corporis ea
+                    repellendus est aliquam rem quam praesentium harum, eum cum facere tempore saepe qui consectetur
+                    nostrum dignissimos earum.
+                </p>
+                <button class="ss_btn">
+                    read more
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    {{!-- this is our third section of our website --}}
+    <section class="third_sections">
+        <div class="ts_content">
+            <h1 class="ts_heading">coding like thunders</h1>
+            <p class="ts_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quam accusamus
+                voluptatum atque laudantium esse! Ipsum dolorem quaerat nobis placeat?</p>
+        </div>
+        <div class="ts_images">
+
+            {{!-- this is our individual images of our websites --}}
+            <div class="ts_main_images">
+                <img src="/coding.jfif" alt="no images" class="ts_img">
+                <h1 class="ts_head">programming</h1>
+                <p class="ts_img_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus blanditiis
+                    doloribus dicta provident! Velit, iste.</p>
+                <button class="ts_img_btn">view more</button>
+            </div>
+
+
+            <div class="ts_main_images">
+                <img src="/coding_eight.jfif" alt="no images" class="ts_img">
+                <h1 class="ts_head">programming</h1>
+                <p class="ts_img_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus blanditiis
+                    doloribus dicta provident! Velit, iste.</p>
+                <button class="ts_img_btn">view more</button>
+            </div>
+
+
+            <div class="ts_main_images">
+                <img src="/coding_five.jfif" alt="no images" class="ts_img">
+                <h1 class="ts_head">programming</h1>
+                <p class="ts_img_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus blanditiis
+                    doloribus dicta provident! Velit, iste.</p>
+                <button class="ts_img_btn">view more</button>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+    {{!-- this is our fourth section of our websites --}}
+    <section class="fourth_sections">
+
+        {{!-- this is our images sections of our fourth sections --}}
+        <div class="fs_img_sections"></div>
+
+
+        <div class="fs_main_content">
+            <h1 class="fs_heading">passionated about the coding and create <span class="span_fs">amazing websites</span>
+            </h1>
+
+            <p class="fs_para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam totam natus dolorem
+                dolores distinctio dignissimos unde, earum magnam autem iusto dolorum provident, nam ea, quidem sequi
+                vitae minus. Accusantium, sed.</p>
+
+
+            {{!-- this is our particular skill sections --}}
+            <div class="fs_skills">
+                <div class="fs_sk_img">
+                    <img src="/javascript.jfif" alt="no images" class="fsk_img">
+                </div>
+                <div class="fs_sk_content">
+                    <h1 class="fsk_head">javascript developer</h1>
+                    <p class="fsk_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, libero!</p>
+                </div>
+            </div>
+
+
+
+            <div class="fs_skills">
+                <div class="fs_sk_img">
+                    <img src="/python.jfif" alt="no images" class="fsk_img">
+                </div>
+                <div class="fs_sk_content">
+                    <h1 class="fsk_head">python developer</h1>
+                    <p class="fsk_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+            </div>
+
+
+
+            <div class="fs_skills">
+                <div class="fs_sk_img">
+                    <img src="/css_two.jfif" alt="no images" class="fsk_img">
+                </div>
+                <div class="fs_sk_content">
+                    <h1 class="fsk_head">css developer</h1>
+                    <p class="fsk_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, libero!</p>
+                </div>
+            </div>
+
+            <p class="fsk_sec_para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quos quae cumque quaerat?
+                Perspiciatis ducimus id magnam explicabo dolorum alias!
+            </p>
+
+
+        </div>
+    </section>
+
+
+    {{!-- this is our first section of our websites --}}
+    <section class="fifth_sections">
+        <div class="bg_head">
+            <h1 class="bg_heading">blogs and news</h1>
+            <p class="bg_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima optio atque pariatur
+                dolorum maiores dolor?</p>
+        </div>
+
+        <div class="bg_first_sections">
+
+
+            <div class="first_bg_cart">
+                <div class="bg_images">
+                    <img src="/coding.jfif" alt="no images" class="bg_img">
+                </div>
+                <h1 class="bg_hd">Lorem ipsum, dolor sit amet conse adipisicing elit.</h1>
+            </div>
+
+
+            <div class="first_bg_cart">
+                <div class="bg_images">
+                    <img src="/image_one.jfif" alt="no images" class="bg_img">
+                </div>
+                <h1 class="bg_hd">Lorem ipsum, dolor sit amet conse .</h1>
+            </div>
+
+
+            <div class="first_bg_cart">
+                <div class="bg_images">
+                    <img src="/coding_five.jfif" alt="no images" class="bg_img">
+                </div>
+                <h1 class="bg_hd">Lorem ipsum, dolor sit amet conse adipisicing .</h1>
+            </div>
+
+
+            <div class="first_bg_cart">
+                <div class="bg_images">
+                    <img src="/nature_two.jfif" alt="no images" class="bg_img">
+                </div>
+                <h1 class="bg_hd">Lorem ipsum, dolor sit amet .</h1>
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+    <div class="main_contact">
+        {{>contact}}
+    </div>
+
+
+
+    <div class="main_footer">
+        {{>footer}}
+    </div>
+</body>
+
+</html>
